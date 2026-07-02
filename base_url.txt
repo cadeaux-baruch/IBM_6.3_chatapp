@@ -1,0 +1,39 @@
+sst_base_url = "https://sn-watson-stt.labs.skills.network"
+
+curl https://sn-watson-stt.labs.skills.network/speech-to-text/api/v1/models
+
+tts_base_url = "https://sn-watson-tts.labs.skills.network"
+
+j_voices = {
+   "voices": [
+      {
+         "name": "en-US_EmilyV3Voice",
+         "language": "en-US",
+         "gender": "female",
+         "description": "Emily: American English female voice. Dnn technology.",
+         ...
+      },
+      {
+         "name": "en-GB_JamesV3Voice",
+         "language": "en-GB",
+         "gender": "male",
+         "description": "James: British English male voice. Dnn technology.",
+         ...
+      },
+      {
+         "name": "en-US_MichaelV3Voice",
+         "language": "en-US",
+         "gender": "male",
+         "description": "Michael: American English male voice. Dnn technology.",
+         ...
+      },
+      {
+         "name": "fr-CA_LouiseV3Voice",
+         "language": "fr-CA",
+         "gender": "female",
+         "description": "Louise: French Canadian female voice. Dnn technology.",
+         ....
+      },
+      ...
+   ]
+}
